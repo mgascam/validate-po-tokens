@@ -6,6 +6,9 @@
   "scripts": {
     "test": "jest --watch"
   },
+  "bin": {
+    "validate-tokens": "./cli.js"
+  },
   "author": "Miguel Gasca - miguelgasca@gmail.com",
   "license": "ISC",
   "devDependencies": {
