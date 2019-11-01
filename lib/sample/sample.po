@@ -1,0 +1,8 @@
+#: lib/error.c:116
+msgid "Unknown system error <[ valid ]>"
+msgstr "Error desconegut del sistema <[ valid ]>"
+
+#: lib/error.c:116
+msgid "Another error <[ valid ]>"
+msgstr "Unaltre error <[ valido ]>"
+
