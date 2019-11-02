@@ -1,8 +1,12 @@
 {
   "name": "validate-po-tokens",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A tool to validate tokens in PO files",
-  "main": "index.js",
+  "main": "cli.js",
+  "repository": {
+    "url": "https://github.com/mgascam/validate-po-tokens",
+    "type": "git"
+  },
   "scripts": {
     "test": "jest --watch"
   },
@@ -16,5 +20,8 @@
     "@babel/preset-env": "^7.6.3",
     "babel-jest": "^24.9.0",
     "jest": "^24.9.0"
+  },
+  "dependencies": {
+    "prettyjson": "^1.2.1"
   }
 }
