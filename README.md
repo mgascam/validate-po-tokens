@@ -1,8 +1,8 @@
-### Prerequisites
+## Prerequisites
   Nodejs v11.11.0
 
-### Installation
+## Installation
   Run npm install -g validate-po-tokens
 
 ### Run
-    validate-tokens [path/to/po/file]
+    validate-tokens [path/to/po/file] [--format=pretty]
