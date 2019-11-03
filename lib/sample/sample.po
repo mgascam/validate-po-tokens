@@ -6,3 +6,7 @@ msgstr "Error desconegut del sistema <[ valid ]>"
 msgid "Another error <[ valid ]>"
 msgstr "Unaltre error <[ valido ]>"
 
+#: lib/error.c:116
+msgid "Another error <[ valid ]>"
+msgstr ""
+

@@ -1,6 +1,6 @@
 {
   "name": "validate-po-tokens",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "A tool to validate tokens in PO files",
   "main": "cli.js",
   "repository": {
@@ -14,7 +14,7 @@
     "validate-tokens": "./cli.js"
   },
   "author": "Miguel Gasca - miguelgasca@gmail.com",
-  "license": "ISC",
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.6.4",
     "@babel/preset-env": "^7.6.3",
@@ -22,6 +22,7 @@
     "jest": "^24.9.0"
   },
   "dependencies": {
+    "minimist": "^1.2.0",
     "prettyjson": "^1.2.1"
   }
 }
