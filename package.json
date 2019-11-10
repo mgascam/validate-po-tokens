@@ -2,13 +2,14 @@
   "name": "validate-po-tokens",
   "version": "1.2.0",
   "description": "A tool to validate tokens in PO files",
-  "main": "cli.js",
+  "main": "index.js",
   "repository": {
     "url": "https://github.com/mgascam/validate-po-tokens",
     "type": "git"
   },
   "scripts": {
-    "test": "jest --watch"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "bin": {
     "validate-tokens": "./cli.js"
