@@ -1,4 +1,5 @@
 #!/usr/bin/env node
+const process = require('process');
 const argv = require('minimist')(process.argv.slice(2));
 const prettyjson = require('prettyjson');
 const { getEntriesFromFile } = require('./lib/entries');
@@ -16,11 +17,12 @@ getEntriesFromFile(file).then((data) => {
     if (errors.length > 0) {
       const reportData = createJSONReport(file, regexp.name, errors)
       if (format === 'pretty') {
-        console.log(prettyjson.render(reportData));
+        console.error(prettyjson.render(reportData));
       } else {
-        console.log(JSON.stringify(reportData));
+        console.error(JSON.stringify(reportData));
       }
       console.log('\n');
+      process.exit(1);
     }
   });
 });
