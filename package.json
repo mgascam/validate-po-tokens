@@ -1,6 +1,6 @@
 {
   "name": "validate-po-tokens",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "description": "A tool to validate tokens in PO files",
   "main": "index.js",
   "repository": {
